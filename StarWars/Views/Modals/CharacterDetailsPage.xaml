@@ -6,10 +6,6 @@
     xmlns:ffimage="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
     x:Class="StarWars.Views.Modals.CharacterDetailsPage">
     <ContentPage.Content>
-
-
-
-
         <ScrollView>
             <Grid>
                 <Grid.RowDefinitions>
@@ -175,12 +171,13 @@
                     WidthRequest="60"
                     Margin="20,0,0,0">
                     <Button
+                        BackgroundColor="Transparent"
                         HorizontalOptions="Start"
                         VerticalOptions="Start"
-                        HeightRequest="50"
+                        HeightRequest="70"
                         FontSize="45"
                         TextColor="#6C6C6C"
-                        WidthRequest="50"
+                        WidthRequest="70"
                         Text="&#xf32a;"
                         FontFamily="{StaticResource Font_Awesome_Solid}"
                         Clicked="Button_Clicked_Back" />
