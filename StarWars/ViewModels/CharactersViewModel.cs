@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Windows.Input;
 using StarWars.Models;
 using StarWars.Services;
+using StarWars.Views.Modals;
 using Xamarin.Forms;
 
 namespace StarWars.ViewModels {
@@ -42,6 +43,8 @@ namespace StarWars.ViewModels {
 
             Debug.WriteLine($"Selected {_selectedCharacter.Name} ");
 
+            await page.Navigation.PushModalAsync(new CharactersDetailsPage(SelectedCharacter));
+
         }));
 
 
@@ -51,7 +54,7 @@ namespace StarWars.ViewModels {
 
             try {
                 var response = await starWarsService.GetCharactersAsync();
-                if(response != null) {
+                if (response != null) {
                     CharactersCollection = response;
                 }
             } catch (Exception ex) {
@@ -59,6 +62,6 @@ namespace StarWars.ViewModels {
             }
         }
 
-        
+
     }
 }

@@ -15,5 +15,7 @@ namespace StarWars.Views {
 
             BindingContext = VM;
         }
+
+      
     }
 }
