@@ -24,6 +24,13 @@ namespace StarWars.iOS {
             CachedImageRenderer.Init();
             LoadApplication(new App());
 
+            Console.WriteLine("Family Names");
+            foreach (var familyNames in UIFont.FamilyNames) {
+                Console.WriteLine($"Font Family Name {familyNames}");
+                
+            }
+
+
             return base.FinishedLaunching(app, options);
         }
     }

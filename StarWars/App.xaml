@@ -7,5 +7,28 @@
     mc:Ignorable="d"
     x:Class="StarWars.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <!--Fonts-->
+            <OnPlatform
+                x:Key="Starjedi"
+                x:TypeArguments="x:String">
+                <On
+                    Platform="Android"
+                    Value="Fonts/Strjmono.ttf#Starjedi" />
+                <On
+                    Platform="iOS"
+                    Value="Star Jedi" />
+            </OnPlatform>
+             <OnPlatform
+                x:Key="StarjediMono"
+                x:TypeArguments="x:String">
+                <On
+                    Platform="Android"
+                    Value="Fonts/Strjmono.ttf#StarjediMono" />
+                <On
+                    Platform="iOS"
+                    Value="Star Jedi" />
+            </OnPlatform>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

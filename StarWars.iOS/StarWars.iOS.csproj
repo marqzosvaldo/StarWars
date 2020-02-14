@@ -132,4 +132,13 @@
       <Name>StarWars</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Fonts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Fonts\Starjedi.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Resources\Fonts\Strjmono.ttf" />
+  </ItemGroup>
 </Project>

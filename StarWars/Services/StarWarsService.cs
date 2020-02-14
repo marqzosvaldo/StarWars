@@ -8,7 +8,6 @@ using StarWars.Models;
 namespace StarWars.Services {
     public class StarWarsService {
 
-
         public async Task<ObservableCollection<Character>> GetCharactersAsync() {
             try {
                 var response = await RequestsHelper<ObservableCollection<Character>>.
