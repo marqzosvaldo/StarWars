@@ -97,6 +97,8 @@
     <AndroidAsset Include="Assets\Starjedi.ttf" />
     <AndroidAsset Include="Assets\Fonts\Starjedi.ttf" />
     <AndroidAsset Include="Assets\Fonts\Strjmono.ttf" />
+    <AndroidAsset Include="Assets\Fonts\fa-solid.ttf" />
+    <AndroidAsset Include="Assets\Fonts\fa-regular-400.ttf" />
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

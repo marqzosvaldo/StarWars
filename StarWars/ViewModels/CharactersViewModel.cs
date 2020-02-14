@@ -43,7 +43,7 @@ namespace StarWars.ViewModels {
 
             Debug.WriteLine($"Selected {_selectedCharacter.Name} ");
 
-            await page.Navigation.PushModalAsync(new CharactersDetailsPage(SelectedCharacter));
+            await page.Navigation.PushModalAsync(new CharacterDetailsPage(SelectedCharacter));
 
         }));
 

@@ -24,12 +24,17 @@ namespace StarWars.iOS {
             CachedImageRenderer.Init();
             LoadApplication(new App());
 
-            Console.WriteLine("Family Names");
-            foreach (var familyNames in UIFont.FamilyNames) {
-                Console.WriteLine($"Font Family Name {familyNames}");
+            //Console.WriteLine("Family Names");
+            //foreach (var familyNames in UIFont.FamilyNames) {
+            //    Console.WriteLine($"Font Family Name {familyNames}");
                 
-            }
-
+            //}
+            //foreach (var familyNames in UIFont.FamilyNames.Where(f => f.StartsWith("Font Awesome")).OrderBy(c => c).ToList()) {
+            //    Console.WriteLine(" * " + familyNames);
+            //    foreach (var familyName in UIFont.FontNamesForFamilyName(familyNames).OrderBy(c => c).ToList()) {
+            //        Console.WriteLine(" *-- " + familyName);
+            //    }
+            //}
 
             return base.FinishedLaunching(app, options);
         }

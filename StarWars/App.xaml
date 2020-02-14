@@ -19,7 +19,8 @@
                     Platform="iOS"
                     Value="Star Jedi" />
             </OnPlatform>
-             <OnPlatform
+
+            <OnPlatform
                 x:Key="StarjediMono"
                 x:TypeArguments="x:String">
                 <On
@@ -28,6 +29,26 @@
                 <On
                     Platform="iOS"
                     Value="Star Jedi" />
+            </OnPlatform>
+            <OnPlatform
+                x:Key="Font_Awesome_Solid"
+                x:TypeArguments="x:String">
+                <On
+                    Platform="Android"
+                    Value="Fonts/fa-solid.ttf#fa-solid" />
+                <On
+                    Platform="iOS"
+                    Value="FontAwesome5Pro-Solid" />
+            </OnPlatform>
+             <OnPlatform
+                x:Key="Font_Awesome_Regular"
+                x:TypeArguments="x:String">
+                <On
+                    Platform="Android"
+                    Value="Fonts/fa-regular-400.ttf#fa-regular-400" />
+                <On
+                    Platform="iOS"
+                    Value="FontAwesome5Pro-Regular" />
             </OnPlatform>
         </ResourceDictionary>
     </Application.Resources>

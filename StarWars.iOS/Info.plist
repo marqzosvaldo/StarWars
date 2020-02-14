@@ -38,6 +38,8 @@
 	<array>
 		<string>Fonts/Starjedi.ttf</string>
 		<string>Fonts/Strjmonoo.ttf</string>
+		<string>Fonts/fa-solid.ttf</string>
+		<string>Fonts/fa-regular-400.ttf</string>
 	</array>
 </dict>
 </plist>

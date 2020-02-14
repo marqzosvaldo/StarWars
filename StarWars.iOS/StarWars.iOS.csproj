@@ -137,6 +137,9 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Fonts\Starjedi.ttf" />
+    <BundleResource Include="Resources\Fonts\fa-solid.ttf" />
+    <BundleResource Include="fa-solid.ttf" />
+    <BundleResource Include="Resources\Fonts\fa-regular-400.ttf" />
   </ItemGroup>
   <ItemGroup>
     <AndroidAsset Include="Resources\Fonts\Strjmono.ttf" />
